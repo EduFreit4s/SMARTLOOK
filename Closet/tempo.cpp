@@ -2,7 +2,7 @@
 
 
 int getempo(char x){
-    int z;
+    int z = 0;
     time_t t;
     struct tm * tempo;
     time(&t);

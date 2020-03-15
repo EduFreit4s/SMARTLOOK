@@ -87,6 +87,7 @@ private slots:
     void on_btnMatch_2_clicked();
     void on_editar_activated(const QString &arg1);
 
+
 private:
 
     Ui::MainWindow *ui;
@@ -99,6 +100,7 @@ private:
     void match();
 
 
+
     cadastro *novo;
     Sobre *edu;
     Editar *edit;
@@ -108,8 +110,6 @@ private:
     int troncoPage = 0;
     int pernasPage = 0;
     int calcadoPage = 0;
-
-
 
 };
 #endif // MAINWINDOW_H

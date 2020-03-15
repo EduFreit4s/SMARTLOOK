@@ -13,6 +13,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     QMessageBox::information(this, "Sucesso", "Bem vindo ao seu Closet virtual!");
 
+
     menu();
 }
 
@@ -66,8 +67,6 @@ void MainWindow::on_actionCarregar_triggered()
     roupas.carregarDados(filename);
     pecas.separa(roupas);
     atualizaTabela();
-
-
 }
 
 
@@ -82,12 +81,12 @@ void MainWindow::on_btnCloset_clicked()
 
     if(pecas.p.size() > 0){
         QPixmap perna(pecas.p[0].getImg());
-        ui -> labelTronco -> setPixmap(perna.scaled(1280,1280,Qt::KeepAspectRatio));
+        ui -> labelPernas -> setPixmap(perna.scaled(1280,1280,Qt::KeepAspectRatio));
     }
 
     if(pecas.c.size() > 0){
         QPixmap calcado(pecas.c[0].getImg());
-        ui -> labelTronco -> setPixmap(calcado.scaled(1280,1280,Qt::KeepAspectRatio));
+        ui -> labelCalcado -> setPixmap(calcado.scaled(1280,1280,Qt::KeepAspectRatio));
     }
 
 }
@@ -117,8 +116,9 @@ void MainWindow::on_btnEstatistica_clicked()
 
 void MainWindow::on_btnMatch_clicked()
 {
-    ui->stackedWidget ->setCurrentIndex(3);
     match();
+    ui-> stackedWidget ->setCurrentIndex(3);
+
 }
 
 void MainWindow::on_actionSobre_triggered()
@@ -231,8 +231,8 @@ void MainWindow::atualizaTabela()
     ui->tabelaStats->setItem(0,1, new QTableWidgetItem(QString::number(comb_poss)));
     ui->tabelaStats->setItem(1,1, new QTableWidgetItem(c_abun));
     ui->tabelaStats->setItem(2,1, new QTableWidgetItem(QString::number(t_tronco)));
-    ui->tabelaStats->setItem(4,1, new QTableWidgetItem(QString::number(t_pernas)));
-    ui->tabelaStats->setItem(5,1, new QTableWidgetItem(QString::number(t_calcados)));
+    ui->tabelaStats->setItem(3,1, new QTableWidgetItem(QString::number(t_pernas)));
+    ui->tabelaStats->setItem(4,1, new QTableWidgetItem(QString::number(t_calcados)));
 
 
 }
@@ -348,7 +348,7 @@ void MainWindow::on_btnPernasRight_clicked()
             pernasPage = 0;
         }
         QPixmap perna(pecas.p[pernasPage].getImg());
-        ui -> labelTronco -> setPixmap(perna.scaled(1280,1280,Qt::KeepAspectRatio));
+        ui -> labelPernas -> setPixmap(perna.scaled(1280,1280,Qt::KeepAspectRatio));
     }
 
 }
@@ -357,7 +357,7 @@ void MainWindow::on_btnPernasLeft_clicked()
 {   if(pecas.p.size()>0){
         if( pernasPage != 0) pernasPage--;
         QPixmap perna(pecas.p[pernasPage].getImg());
-        ui -> labelTronco -> setPixmap(perna.scaled(1280,1280,Qt::KeepAspectRatio));
+        ui -> labelPernas -> setPixmap(perna.scaled(1280,1280,Qt::KeepAspectRatio));
     }
 }
 
@@ -371,7 +371,7 @@ void MainWindow::on_btnCalcadoRight_clicked()
             calcadoPage = 0;
         }
         QPixmap calcado(pecas.c[calcadoPage].getImg());
-        ui -> labelTronco -> setPixmap(calcado.scaled(1280,1280,Qt::KeepAspectRatio));
+        ui -> labelCalcado -> setPixmap(calcado.scaled(1280,1280,Qt::KeepAspectRatio));
     }
 
 }
@@ -381,7 +381,7 @@ void MainWindow::on_btnCalcadoLeft_clicked()
     if(pecas.c.size()>0){
         if( calcadoPage != 0) calcadoPage--;
         QPixmap calcado(pecas.c[calcadoPage].getImg());
-        ui -> labelTronco -> setPixmap(calcado.scaled(1280,1280,Qt::KeepAspectRatio));
+        ui -> labelCalcado -> setPixmap(calcado.scaled(1280,1280,Qt::KeepAspectRatio));
     }
 
 }
@@ -416,7 +416,7 @@ void MainWindow::on_apagar_activated(const QString &arg1)
                     pernasPage = 0;
                     if(pecas.p.size() > 0){
                         QPixmap perna(pecas.p[pernasPage].getImg());
-                        ui -> labelTronco -> setPixmap(perna.scaled(1280,1280,Qt::KeepAspectRatio));
+                        ui -> labelPernas -> setPixmap(perna.scaled(1280,1280,Qt::KeepAspectRatio));
                     }
                 }
             }
@@ -434,7 +434,7 @@ void MainWindow::on_apagar_activated(const QString &arg1)
                     calcadoPage = 0;
                     if(pecas.c.size() > 0){
                         QPixmap calcado(pecas.c[calcadoPage].getImg());
-                        ui -> labelTronco -> setPixmap(calcado.scaled(1280,1280,Qt::KeepAspectRatio));
+                        ui -> labelCalcado -> setPixmap(calcado.scaled(1280,1280,Qt::KeepAspectRatio));
                     }
                 }
             }
@@ -458,20 +458,22 @@ void MainWindow::match()
     }
 
     if(pecas.p.size()>0){
-        pernasRandom = rand()%pecas.t.size();
-        QPixmap tronco(pecas.t[pernasRandom].getImg());
-        ui -> labelMatchP -> setPixmap(tronco.scaled(1280,1280,Qt::KeepAspectRatio));
+        pernasRandom = rand()%pecas.p.size();
+        QPixmap pernas(pecas.p[pernasRandom].getImg());
+        ui -> labelMatchP -> setPixmap(pernas.scaled(1280,1280,Qt::KeepAspectRatio));
     }
 
 
     if(pecas.c.size()>0){
-        calcadoRandom = rand()%pecas.t.size();
-        QPixmap tronco(pecas.t[calcadoRandom].getImg());
-        ui -> labelMatchC -> setPixmap(tronco.scaled(1280,1280,Qt::KeepAspectRatio));
+        calcadoRandom = rand()%pecas.c.size();
+        QPixmap calcado(pecas.c[calcadoRandom].getImg());
+        ui -> labelMatchC -> setPixmap(calcado.scaled(1280,1280,Qt::KeepAspectRatio));
     }
 
 
 }
+
+
 
 void MainWindow::on_btnMatch_2_clicked()
 {
@@ -482,26 +484,30 @@ void MainWindow::on_btnMatch_2_clicked()
 void MainWindow::on_editar_activated(const QString &arg1)
 {
     if(arg1 == "Tronco"){
+
         QMessageBox::StandardButton txt = QMessageBox::question(this, "Camisa, Blusa, etc", "Você tem certeza que deseja editar essa peça?");
         if(QMessageBox::Yes == txt){
+            QMessageBox::warning(this, "Aviso", "Prencha apenas os campos que deseja alterar!");
 
-                Editar edit;
-                edit.carregarVetor(roupas);
-                edit.carregaIdioma(idioma);
-                edit.carregaFlag(pecas.t[troncoPage].getNome());
-                edit.exec();
+            Editar edit;
+            edit.carregarVetor(roupas);
+            edit.carregaIdioma(idioma);
+            edit.carregaFlag(pecas.t[troncoPage].getNome());
+            edit.exec();
 
-                edit.uploadVetor(roupas);
-                pecas.separa(roupas);
+            edit.uploadVetor(roupas);
+            pecas.separa(roupas);
 
 
-                atualizaTabela();
-                edit.close();
-            }
+            atualizaTabela();
+            edit.close();
+        }
 
     }else if(arg1 == "Pernas"){
-        QMessageBox::StandardButton txt = QMessageBox::question(this, "Calça, Jeans, etc", "Você tem certeza que deseja apagar essa peça?");
+
+        QMessageBox::StandardButton txt = QMessageBox::question(this, "Calça, Jeans, etc", "Você tem certeza que deseja editar essa peça?");
         if(QMessageBox::Yes == txt){
+            QMessageBox::warning(this, "Aviso", "Prencha apenas os campos que deseja alterar!");
 
             Editar edit;
             edit.carregarVetor(roupas);
@@ -519,8 +525,9 @@ void MainWindow::on_editar_activated(const QString &arg1)
 
     }else if(arg1 == "Calçado"){
 
-        QMessageBox::StandardButton txt = QMessageBox::question(this, "Tênis, Chinelo, etc", "Você tem certeza que deseja apagar essa peça?");
+        QMessageBox::StandardButton txt = QMessageBox::question(this, "Tênis, Chinelo, etc", "Você tem certeza que deseja editar essa peça?");
         if(QMessageBox::Yes == txt){
+            QMessageBox::warning(this, "Aviso", "Prencha apenas os campos que deseja alterar!");
 
             Editar edit;
             edit.carregarVetor(roupas);

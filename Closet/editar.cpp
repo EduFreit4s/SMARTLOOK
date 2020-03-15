@@ -33,7 +33,6 @@ void Editar::carregaFlag(QString a)
 void Editar::on_btnCadastrar_clicked()
 {
     roupa.setNome(ui->btnNome->text());
-    roupa.setTipo(ui->btnPeca->currentText());
     roupa.setCor(ui->btnCor->currentText());
     roupa.setTamanho(ui->btnTamanho->text());
     roupa.setImg(img);
@@ -42,15 +41,6 @@ void Editar::on_btnCadastrar_clicked()
         for(int i = 0; i < temp.roupas.size();i++){
             if(temp.roupas[i].getNome() == flag){
                 temp.roupas[i].setNome(roupa.getNome());
-            }
-        }
-    }
-
-
-    if(roupa.getTipo() != ""){
-        for(int i = 0; i < temp.roupas.size();i++){
-            if(temp.roupas[i].getNome() == flag){
-                temp.roupas[i].setTipo(roupa.getTipo());
             }
         }
     }
@@ -93,7 +83,7 @@ void Editar::on_btnCadastrar_clicked()
 void Editar::on_btnImagem_clicked()
 {
     QString filename;
-    filename = QFileDialog::getOpenFileName(this, "Abrir Arquivo","","*.jpg, *.png");
+    filename = QFileDialog::getOpenFileName(this, "Abrir Arquivo","","*.jpg *.png");
     roupa.setImg(filename);
     img = roupa.getImg();
 }

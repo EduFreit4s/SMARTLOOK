@@ -27,7 +27,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="main">
      <widget class="QPushButton" name="btnSair">
@@ -634,7 +634,7 @@ font: 23pt &quot;Rage Italic&quot;;</string>
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -656,7 +656,7 @@ font: 23pt &quot;Rage Italic&quot;;</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: #ffffff;
+          <string notr="true">background-color: rgb(255, 0, 0);
 font: 23pt &quot;Rage Italic&quot;;</string>
          </property>
          <property name="text">

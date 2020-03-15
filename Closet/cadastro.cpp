@@ -47,7 +47,7 @@ void cadastro::on_btnCadastrar_clicked()
 void cadastro::on_btnImagem_clicked()
 {
     QString filename;
-    filename = QFileDialog::getOpenFileName(this, "Abrir Arquivo","","*.jpg, *.png");
+    filename = QFileDialog::getOpenFileName(this, "Abrir Arquivo","","*.jpg *.png");
     roupa.setImg(filename);
     img = roupa.getImg();
 
