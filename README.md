@@ -53,7 +53,9 @@ No canto superior esquerdo da janela se encontra uma barra de opções.
 Ao clicar em *salvar*, o aplicativo pergunta em qual pasta você deseja fazer isso. Entretanto, este programa conta com sistema exclusivo de salvamento automático para você não *perder nada!
 
 Para carregar as informações, clique em *carregar* e selecione o arquivo.csv salvo anteriormente.
+Ainda é possível alterar idioma do programa e descobrir mais sobre o autor.
 
+*Divirtam-se com os easter-eggs*
 
 ## informações adicionais
 
