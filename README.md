@@ -21,7 +21,7 @@
 # Como usar?
 
 ### Cadastrando nova peça 
-Na barra inferior, selecione *"new"*. Após ter feito isto, você verá essa imagem na sua tela:
+Na barra inferior, selecione *"new"*. Após ter feito isto, você verá essa tela:
 
 <p align="center">
   <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/new.PNG" width=60%>
@@ -30,7 +30,7 @@ Na barra inferior, selecione *"new"*. Após ter feito isto, você verá essa ima
 Na caixa superior você pode dar um nome para sua roupa se desejar.
 Abaixo você selecionará o tipo de peça (blusa, shortinho e etc), sua cor e tamanho.
 Calma que ainda não acabou! Ao clicar no botão *"Photo"* uma caixa de diálogo irá abrir. 
-Navegue em seus arquivos até encontrar a imagem da sua roupa. Quanto tudo tiver ok clique no botão *"Cadastrar roupa"*
+Navegue em seus arquivos até encontrar a imagem da sua roupa. Quanto tudo tiver ok clique no botão *"Register clothes"*
 
 ### Como visualizar as peças cadastradas?
 
@@ -69,7 +69,7 @@ O último botão da barra inferior te traz uma série de informações sobre seu
   <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/stats.PNG" width=60%>
 </p>
 
-O sistema mostra quantas combinações de looks são possíveis, cor mais comum e muito mais. Legal, né?
+O programa mostra quantas combinações de looks são possíveis, cor favorita e muito mais. Legal, né?
 
 
 ### Como salvar ou ler os arquivos do meu closet virtual?
