@@ -2,9 +2,9 @@
 
 <p align="center">
   <img width="819" height="581" src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/id.png">
-  Bem vindo ao seu guarda roupa virtual.
-  Com este programa é possível  cadastrar novas peças, visualizar estatísticas e muito mais!
 </p>
+Bem vindo ao seu guarda roupa virtual.
+Com este programa é possível  cadastrar novas peças, visualizar estatísticas e muito mais!
 
 # Como usar?
 
