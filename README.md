@@ -1,10 +1,24 @@
-# SmartLook v3.0!
+
+<h1 align="center">
+  
+    SmartLook v3.0
+</h1>
+
+<h1 align="center">
+  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/id.png" width=100% height=100%>
+</h1>
+  
+
 
 <p align="center">
-  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/id.png" width=100%>
+  <a href="#cadastrando-nova-peça">New</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-visualizar-as-peças-cadastradas">Closet</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#match-o-que-é-isso">Match!</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#estatísticas">Statistics</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#contato">Contato</a>
 </p>
-Bem vindo ao seu guarda roupa virtual.
-Com este programa é possível  cadastrar novas peças, visualizar estatísticas e muito mais!
+
+> Bem vindo ao seu guarda roupa virtual. Com este programa é possível  cadastrar novas peças, visualizar estatísticas e muito mais!
 
 # Como usar?
 
@@ -40,7 +54,7 @@ Ao clicar em cada imagem, uma caixa de diálogo irá se abrir com as seguintes o
   <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/edit.PNG" width=50%>
 </p>
 
-### Math! O que é isso?
+### Match! O que é isso?
 
 <p align="center">
   <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/match.PNG" width=50%>
@@ -70,7 +84,7 @@ Para carregar as informações, clique em *carregar* e selecione o arquivo.csv s
 Ainda é possível alterar idioma do programa, gênero e descobrir mais sobre o autor.
 
 
-# informações adicionais
+# Contato
 
 -   Autor: Eduardo Freitas
 -   Estudante do IFPB - Campus João Pessoa
