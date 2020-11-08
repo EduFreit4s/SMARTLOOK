@@ -1,63 +1,76 @@
-# SmartLook!
+# SmartLook v3.0!
 
-![SmartLook](https://github.com/EduFreit4s/SmartLook/blob/master/screenshot/main.png)
-
-Bem vindo ao seu guarda roupa virtual!
-
-Com este programa é possível  cadastrar novas peças, visualizar estatísticas e muito mais!
+<p align="center">
+  <img width="936" height="664" src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/id.png">
+  Bem vindo ao seu guarda roupa virtual.
+  Com este programa é possível  cadastrar novas peças, visualizar estatísticas e muito mais!
+</p>
 
 # Como usar?
-## Cadastrando nova peça
 
-No menu principal, clique no botão *"novo"* (segunda opção).  Após ter feito isto, uma caixa de dialogo irá surgir na sua tela:
+### Cadastrando nova peça 
+Na barra inferior, selecione *"new"*. Após ter feito isto, você verá essa imagem na sua tela:
 
-![Tela de cadastramento](https://github.com/EduFreit4s/SmartLook/blob/master/screenshot/new.png) 
+<p align="center">
+  <img width="552" height="542" src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/new.PNG">
+</p>
 
-É necessário preencher todos os campos!
+Na caixa superior você pode dar um nome para sua roupa se desejar.
+Abaixo você selecionará o tipo de peça (blusa, shortinho e etc), sua cor e tamanho.
+Calma que ainda não acabou! Ao clicar no botão *"Photo"* uma caixa de diálogo irá abrir. 
+Navegue em seus arquivos até encontrar a imagem da sua roupa. Quanto tudo tiver ok clique no botão *"Cadastrar roupa"*
 
-Comece dando um nome para sua roupa digitando no retângulo *"nome"*.
-Abaixo você selecionará o tipo de peça (blusa, shortinho e etc) e sua cor.
+### Como visualizar as peças cadastradas?
 
-Calma que ainda não acabou! No pequeno botão azul você irá escolher uma foto salva em seu computador. Essa será a imagem da sua roupa! Por último, digite o tamanho da peça e clique em cadastrar.
+Na barra inferior, selecione o botão *"Closet"*
 
-## Como visualizar as peças cadastradas?
+<p align="center">
+  <img width="552" height="542" src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/closet.PNG">
+</p>
 
-No menu principal, selecione o botão *"guarda roupa"*
+É possível rolar pelo guarda roupa clicando nos botões ao lado de cada peça.
+Ao clicar em cada imagem, uma caixa de diálogo irá se abrir com as seguintes opções: *"Editar, Apagar e Cancelar"*
+<p align="center">
+  <img width="552" height="542" src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/edit_dialog.PNG">
+</p>
 
-![Seu closet virtual](https://github.com/EduFreit4s/SmartLook/blob/master/screenshot/closet.png)
+> Selecione *"Editar"* para mudar atributos de cada peça!
 
-É possível navegar pelo seu guarda roupa clicando nos botões azuis ao lado!
-Abaixo existe três botões extras. O *menu* volta para tela principal, *Selecione para apagar* pergunta se você deseja apagar alguma das peças visualizadas no momento e o terceiro botão pergunta se você quer editar alguma das peças que estão na tela.
+<p align="center">
+  <img width="552" height="542" src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/edit.PNG">
+</p>
 
-## Estatísticas!
+### Math! O que é isso?
 
-O terceiro botão do menu te traz uma série de informações sobre seu closet virtual
+<p align="center">
+  <img width="552" height="542" src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/match.PNG">
+</p>
 
-![É possível descobrir quantas combinações dá pra fazer!](https://github.com/EduFreit4s/SmartLook/blob/master/screenshot/stats.png)
+Essa função é minha favorita. Ela foi desenvolvida exclusivamente para a pessoa indecisa.
+Basta clicar no botão *"?"* que o sistema irá sortear um look exclusivo para você. Quase tão perfeito quanto o criador do software.
+
+### Estatísticas!
+
+O último botão da barra inferior te traz uma série de informações sobre seu closet
+
+<p align="center">
+  <img width="552" height="542" src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/stats.PNG">
+</p>
 
 O sistema mostra quantas combinações de looks são possíveis, cor mais comum e muito mais. Legal, né?
 
 
-## Combine!
-
-![Match!](https://github.com/EduFreit4s/SmartLook/blob/master/screenshot/match.png)
-
-Essa função é minha favorita, ela é foi feita para pessoas que ficam na dúvida sobre o que vão vestir para sair. Basta clicar no botão *combine* que o sistema irá sortear um look exclusivo para você. Perfeito!
-
-## Como salvar ou ler os arquivos do meu closet virtual?
+### Como salvar ou ler os arquivos do meu closet virtual?
 
 No canto superior esquerdo da janela se encontra uma barra de opções.
-
-![Opções do programa](https://github.com/EduFreit4s/SmartLook/blob/master/screenshot/about.png)
 
 Ao clicar em *salvar*, o aplicativo pergunta em qual pasta você deseja fazer isso. Entretanto, este programa conta com sistema exclusivo de salvamento automático para você não *perder nada!
 
 Para carregar as informações, clique em *carregar* e selecione o arquivo.csv salvo anteriormente.
-Ainda é possível alterar idioma do programa e descobrir mais sobre o autor.
+Ainda é possível alterar idioma do programa, gênero e descobrir mais sobre o autor.
 
-*Divirtam-se com os easter-eggs*
 
-## informações adicionais
+# informações adicionais
 
 -   Autor: Eduardo Freitas
 -   Estudante do IFPB - Campus João Pessoa
