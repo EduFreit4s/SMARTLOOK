@@ -8,8 +8,6 @@
   <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/id.png" width=80%>
 </h1>
   
-
-
 <p align="center">
   <a href="#cadastrando-nova-peça">New</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#como-visualizar-as-peças-cadastradas">Closet</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -26,7 +24,7 @@
 Na barra inferior, selecione *"new"*. Após ter feito isto, você verá essa imagem na sua tela:
 
 <p align="center">
-  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/new.PNG" width=50%>
+  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/new.PNG" width=60%>
 </p>
 
 Na caixa superior você pode dar um nome para sua roupa se desejar.
@@ -39,25 +37,25 @@ Navegue em seus arquivos até encontrar a imagem da sua roupa. Quanto tudo tiver
 Na barra inferior, selecione o botão *"Closet"*
 
 <p align="center">
-  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/closet.PNG" width=50%>
+  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/closet.PNG" width=60%>
 </p>
 
 É possível rolar pelo guarda roupa clicando nos botões ao lado de cada peça.
 Ao clicar em cada imagem, uma caixa de diálogo irá se abrir com as seguintes opções: *"Editar, Apagar e Cancelar"*
 <p align="center">
-  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/edit_dialog.PNG" width=50%>
+  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/edit_dialog.PNG" width=60%>
 </p>
 
 > Selecione *"Editar"* para mudar atributos de cada peça!
 
 <p align="center">
-  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/edit.PNG" width=50%>
+  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/edit.PNG" width=60%>
 </p>
 
 ### Match! O que é isso?
 
 <p align="center">
-  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/match.PNG" width=50%>
+  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/match.PNG" width=60%>
 </p>
 
 Essa função é minha favorita. Ela foi desenvolvida exclusivamente para a pessoa indecisa.
@@ -68,7 +66,7 @@ Basta clicar no botão *"?"* que o sistema irá sortear um look exclusivo para v
 O último botão da barra inferior te traz uma série de informações sobre seu closet
 
 <p align="center">
-  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/stats.PNG" width=50%>
+  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/stats.PNG" width=60%>
 </p>
 
 O sistema mostra quantas combinações de looks são possíveis, cor mais comum e muito mais. Legal, né?
