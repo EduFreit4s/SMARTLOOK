@@ -5,7 +5,7 @@
 </h1>
 
 <h1 align="center">
-  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/id.png" width=100% height=100%>
+  <img src="https://github.com/EduFreit4s/SmartLook/blob/master/Screenshot/id.png" width=80%>
 </h1>
   
 
